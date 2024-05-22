@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 'border-box';
+}
+
+.benger_px {
+    background-color: black;
+    background-image: url(/src/assets/BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container_px {
+    max-width: 1240px;
+    margin: auto;
+}
+
+.col_px_left {
+    background: #FFE9B8;
+    border-radius: 20px 0px 0px 20px;
+    border: #0C1035;
+}
+
+
+.content-col-right {
+    text-align: left;
+}
+
+.div_heading {
+
+    font-weight: 750;
+    font-size: 30px;
+    text-align: center;
+    color: #0C1035;
+}
+
+.col_px_right {
+    background: #FFFFFF;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.createAccount_px {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #252A56;
+}
+
+.px_para {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7D809D;
+}
+
+.px_para_forgot_content {
+    text-align: right;
+}
+
+.btn-px {
+    max-width: 500px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: linear-gradient(91.52deg, #FF479F 2.41%, #FF783F 81.75%);
+    box-shadow: 0px 4px 30px rgba(64, 71, 141, 0.1);
+    border-radius: 10px;
+    border: none;
+}
+
+.back_to_login {
+    text-align: center;
+    color: black;
+}
+
+.back_to {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #252A56;
+}
+
+.svg_img {
+    max-width: 15px;
+}
+
+.for-pass {
+    display: flex;
+    width: 180px;
+    justify-content: end;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.px_forgotlink {
+    color: #7D809D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+

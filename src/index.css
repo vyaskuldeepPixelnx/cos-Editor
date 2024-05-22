@@ -1,0 +1,109 @@
+.undo-class{
+    display: flex;
+    justify-content:space-between;
+
+}
+.Default-r{
+    display: flex;
+}
+.input-text{
+    height: 37px;
+}
+
+.ee-editor-dropdown {
+    position: relative;
+}
+
+
+.ee-editor-dropdown.active .ee-download-options {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+.ee-editor-dropdown .ee-download-options,
+.ee-editor-dropdown.active .ee-download-options {
+    -webkit-transition: var(--EmailExpert-transition);
+    -moz-transition: var(--EmailExpert-transition);
+    -ms-transition: var(--EmailExpert-transition);
+    -o-transition: var(--EmailExpert-transition);
+    transition: var(--EmailExpert-transition);
+}
+
+
+.download-btn:hover, .ee-editor-dropdown.active .download-btn {
+    /* background: #12C363 !important; */
+    /* border-color: #12C363 !important; */
+    color: #aaaaaa !important;
+}
+.ee-navigation .ee-editor-dropdown .ee-download-options {
+    right: 0;
+}
+.ee-download-options {
+    background: #ececec;
+    border: 1px solid var(--EmailExpert-border-color);
+    border-radius: 5px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 9%);
+    position: absolute;
+    top: calc(100% + 5px);
+    z-index: 11;
+    padding: 8px 0;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 138px;
+    transform: translateY(10px);
+}
+.ee-editor-dropdown.active .ee-download-options {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+.ee-editor-dropdown .ee-download-options,
+.ee-editor-dropdown.active .ee-download-options {
+    -webkit-transition: var(--EmailExpert-transition);
+    -moz-transition: var(--EmailExpert-transition);
+    -ms-transition: var(--EmailExpert-transition);
+    -o-transition: var(--EmailExpert-transition);
+    transition: var(--EmailExpert-transition);
+}
+.ee-download-options ul li {
+    color: var(--EmailExpert-global2);
+    font-size: 12px;
+    padding: 3px 15px;
+    display: block;
+}
+.ee-download-options ul li:hover {
+    color: var(--EmailExpert-primary);
+}
+
+
+
+/* / src/CustomEditor.css / */
+.toolbar {
+  margin-bottom: 10px;
+}
+
+.toolbar button {
+  margin-right: 5px;
+}
+
+.editor {
+  border: 1px solid black;
+  min-height: 400px;
+  padding: 10px;
+  text-align: left;
+}
+
+
+.icon-css
+{
+    margin-right: -50px;
+    margin-top: -20px;
+}
+.arrow-icon{
+
+    margin-left: -15px;
+    /* height: 0; */
+    /* width: 3px; */
+    margin-right: 10px;
+    margin-top: -20px;
+}

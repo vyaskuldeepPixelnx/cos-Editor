@@ -1,0 +1,115 @@
+.navbar {
+    background-color: #FFFFFF;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.menu-bars{
+margin-left: 2rem;
+font-size: 2rem;
+background: none;
+}
+
+.user_profile {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-bot {
+        min-height: calc(100vh - 230px);
+        margin-left: 50px;
+
+}
+
+.logout-btn{
+    /* color: #000; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.add-user{
+    display: flex;
+    justify-content: end;
+
+}
+.user-list{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* padding: 8px 0px 8px 16px; */
+    list-style: none;
+    height: 100%;
+}
+
+.nav-text a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #7D809D;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    /* width: 95%; */
+    height: 100%;
+    letter-spacing: -0.02em;
+}
+
+.nav-text:hover {
+    background: linear-gradient(91.52deg, rgba(255, 71, 159, 0.1) 2.41%, rgba(255, 120, 63, 0.1) 81.75%);
+    border-radius: 12px;
+    /* background-color:linear-gradient(91.52deg, rgba(255, 71, 159, 0.1) 2.41%, rgba(255, 120, 63, 0.1) 81.75%); */
+}
+.nav-manu-items{
+    width: 100%;
+}
+
+.c-new{
+    background: linear-gradient(91.52deg, #FF479F 2.41%, #FF783F 81.75%);
+    box-shadow: 0px 4px 30px rgba(64, 71, 141, 0.1);
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.card-titel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.a-span{
+    font-size: 12px;
+}
+.plans-card button{
+    color:linear-gradient(91.52deg, #FF479F 2.41%, #FF783F 81.75%);
+}
+/* Rectangle 45 */
+
+.c-new-right {
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(276.73deg, #24A4F5 2.98%, #5584E2 93.31%);
+    color: #FFFFFF;
+}
+.btn-ep{
+    padding: 0px;
+    border-radius: 25px;
+    color: #5584E2;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-color: linear-gradient(276.73deg, #24A4F5 2.98%, #5584E2 93.31%);
+}
+.btn-left{
+    color: #FF479F;
+}
+.action-p{
+    display: flex;
+}
